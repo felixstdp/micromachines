@@ -1,0 +1,1 @@
+Archivos .scad y .stl para imprimir una mesa de estudios sísmicos
