@@ -1,0 +1,1 @@
+Archivos .scad y .stl para imprimir una prensa universal de ensayo de materiales
