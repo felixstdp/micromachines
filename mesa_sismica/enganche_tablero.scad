@@ -1,0 +1,13 @@
+$fn=60;
+difference(){
+hull(){
+cylinder(d=14,h=10);
+translate([20,0,0])cylinder(d=14,h=10);
+}
+cylinder(d=4.2,h=11);
+translate([6,-1.6,0])cube([25,3.2,11]);
+translate([12,10,5])rotate([90,0,0])
+cylinder(d=3,h=20);
+translate([20,10,5])rotate([90,0,0])
+cylinder(d=3,h=20);
+}

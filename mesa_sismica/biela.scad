@@ -1,0 +1,9 @@
+$fn=60;
+difference(){
+hull(){
+cylinder(d=12,h=7);
+translate([120,0,0])cylinder(d=12,h=7);
+}
+cylinder(d=4.2,h=7);
+translate([120,0,0])cylinder(d=4.2,h=7);
+}
