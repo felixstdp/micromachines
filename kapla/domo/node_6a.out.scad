@@ -25,7 +25,7 @@ offset=-3;
 //translate([0,0,-12])cylinder(d=50,h=30);
 //}
 //difference(){
-//translate([0,0,-17.5])cylinder(d=10,h=12,$fn=30);
+//translate([0,0,-18])cylinder(d=10,h=12,$fn=30);
 //cylinder(d=3,h=100,$fn=12,center=true);
 //}
 
