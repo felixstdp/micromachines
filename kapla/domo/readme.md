@@ -2,3 +2,5 @@ Nudos para construir un domo geodésico con piezas de Kapla. Es necesario cortar
 
 ![](https://github.com/felixstdp/micromachines/blob/main/kapla/domo/domo_kapla.png)
 ![](https://github.com/felixstdp/micromachines/blob/main/kapla/domo/3vdiagram2.gif)
+
+https://geo-dome.co.uk/3v_tool.asp
