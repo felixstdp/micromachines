@@ -11,6 +11,10 @@ cube([24,8.15,23.55],center=true);
 }
 translate([0,0,-12])cylinder(d=50,h=30);
 }
+difference(){
+translate([0,0,-17])cylinder(d=10,h=12,$fn=30);
+cylinder(d=3,h=100,$fn=12,center=true);
+}
 
 //difference(){
 //translate([0,0,offset])cylinder(d=40,h=28,$fn=60,center=true);
