@@ -6,5 +6,5 @@ rotate([0,0,i])
 rotate([0,5,0])translate([20,0,2])
 cube([24,8.15,23.55],center=true);
 }
-translate([0,0,-25])cylinder(d=50,h=30);
+translate([0,0,-23])cylinder(d=50,h=30);
 }
