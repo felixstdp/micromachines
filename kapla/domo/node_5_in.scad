@@ -1,10 +1,10 @@
 difference(){
-cylinder(d=40,h=27.5,$fn=60);
-translate([0,0,-1])cylinder(d=3.7,h=8,$fn=15);
+cylinder(d=40,h=28,$fn=60,center=true);
+translate([0,0,-14])cylinder(d=3.7,h=8,$fn=15);
 for(i=[0:72:330]){
 rotate([0,0,i])
-rotate([0,5,0])translate([20,0,15])
+rotate([0,5,0])translate([20,0,2])
 cube([24,8.15,23.55],center=true);
 }
-translate([0,0,6])cylinder(d=50,h=30);
+translate([0,0,-7])cylinder(d=50,h=30);
 }
