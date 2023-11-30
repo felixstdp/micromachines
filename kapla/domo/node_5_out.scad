@@ -1,0 +1,9 @@
+difference(){
+cylinder(d=40,h=6,$fn=60);
+translate([0,0,-1])cylinder(d=3.7,h=8,$fn=15);
+for(i=[0:72:330]){
+rotate([0,0,i])
+rotate([0,-5,0])translate([20,0,6])
+cube([24,8.15,12],center=true);
+}
+}
