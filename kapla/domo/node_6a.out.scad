@@ -28,6 +28,8 @@ offset=-3;
 //translate([0,0,-18])cylinder(d=10,h=12,$fn=30);
 //cylinder(d=2.7,h=100,$fn=12,center=true);
 //}
+//translate([15,7.5,-12.3])sphere(r=1.5,$fn=24);
+//translate([15,-7.5,-12.3])sphere(r=1.5,$fn=24);
 
 difference(){
 translate([0,0,offset])
@@ -53,6 +55,8 @@ rotate([0,11.7,0])translate([21.75,0,0])
 cube([20,8.15,23.55],center=true);
 translate([0,0,-23])cylinder(d=50,h=30);
 }
+translate([15,7.5,7.5])sphere(r=1.5,$fn=24);
+translate([15,-7.5,7.5])sphere(r=1.5,$fn=24);
 
 %rotate([0,0,0])
 rotate([0,11.7,0])translate([18.45,0,0])
