@@ -1,5 +1,5 @@
 angle=12;
-offset=-2.3;
+offset=-2.6;
 
 //difference(){
 //translate([0,0,offset])cylinder(d=40,h=30,$fn=60,center=true);
