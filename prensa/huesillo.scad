@@ -1,0 +1,12 @@
+$fn=60;
+difference(){
+cube([100,15,2],center=true);
+hull(){
+translate([-30,-8,-2])cylinder(d=14,h=4);
+translate([30,-8,-2])cylinder(d=14,h=4);
+}
+hull(){
+translate([-30,8,-2])cylinder(d=14,h=4);
+translate([30,8,-2])cylinder(d=14,h=4);
+}
+}
