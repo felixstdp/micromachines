@@ -12,22 +12,22 @@ void setup() {
 }
 
 int steps[8][4] = {{1,0,0,0},{1,0,1,0},{0,0,1,0},{0,1,1,0},{0,1,0,0},{0,1,0,1},{0,0,0,1},{0,0,0,1}};
-int point = 0;
+int pointer = 0;
 
 void loop() {
 
   // put your main code here, to run repeatedly:
   digitalWrite(8, HIGH);
-  digitalWrite(9, steps[point][0]);
-  digitalWrite(10, steps[point][1]);
-  digitalWrite(11, steps[point][2]);
-  digitalWrite(12, steps[point][3]);
+  digitalWrite(9, steps[pointer][0]);
+  digitalWrite(10, steps[pointer][1]);
+  digitalWrite(11, steps[pointer][2]);
+  digitalWrite(12, steps[pointer][3]);
   digitalWrite(13, HIGH);
 
-  if (digitalRead(6)) point++;
-  if (point == 8) point = 0;
-  if (digitalRead(7)) point--;
-  if (point == -1) point = 7;
+  if (digitalRead(6)) pointer++;
+  if (pointer == 8) pointer = 0;
+  if (digitalRead(7)) pointer--;
+  if (pointer == -1) pointer = 7;
 
   delay(2);
 }
