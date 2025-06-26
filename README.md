@@ -6,4 +6,9 @@ Modelos a escala de las instalaciones del CITEEC
 - Máquina universal de ensayo de materiales
 - Mesa sísmica
 - Pala de generación de oleaje
+- Torre de impacto
+
+próximamente
+
 - Barrio SUDS
+- Máquina de ensayo de compresión
