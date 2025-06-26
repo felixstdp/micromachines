@@ -12,3 +12,7 @@ próximamente
 
 - Barrio SUDS
 - Máquina de ensayo de compresión
+
+Proyectos para Polos Creativos XUGA
+
+- Puentes y domo con Kapla
